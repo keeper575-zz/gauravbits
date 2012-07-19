@@ -8,6 +8,8 @@
     
     </div>
     <div id="content-right">
+<div id="contenta">
+<div id="content-lefta">
 <?php
     $url='http://www.moneycontrol.com/sensex/bse/sensex-live';
 $ch = curl_init();
@@ -19,12 +21,16 @@ $data = curl_exec($ch);
 $part = explode('</div>',$data,69) ;
 $val = explode('<div>',$part[67]);
 
-echo "<html><body> SENSEX <br/><br/></body> </html>" ;
+echo "<html><body> SENSEX <br/></body> </html>" ;
 echo $val[0] ;
 $val = explode('<p',$part[68]);
 echo $val[0] ;
-
-echo "<html><body> <br/><br/><br/><br/></body> </html>" ;
+curl_close($ch);
+?>
+</div>
+</div>
+<div id="content-righta">
+<?php
 $url='http://www.moneycontrol.com/nifty/nse/nifty-live';
 $ch = curl_init();
 $timeout = 50;
@@ -35,9 +41,9 @@ $data = curl_exec($ch);
 $part = explode('</div>',$data,69) ;
 $val = explode('<div>',$part[67]);
 
-echo "<html><body>NIFTY <br/><br/> </body> </html>" ;
+echo "<html><body>NIFTY<br/> </body> </html>" ;
 echo $val[0] ;
-$val = explode('<div>',$part[68]);
+$val = explode('<p',$part[68]);
 echo $val[0] ;
 
 
@@ -47,7 +53,8 @@ curl_close($ch);
     </div>  
 	</div> 
 </div>
-</div> 
+</div>
+</div>
   <?php include("footer.html"); ?> 
 </div>
 </body>

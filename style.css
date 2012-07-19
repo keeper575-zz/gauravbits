@@ -57,18 +57,32 @@ body{
 }
 
 #content {
-	width: 980px;
+	width: 800px;
 	margin: 0 auto;
-	padding: 15px 0px 0px 0px;
-}
-
+	padding: 10px 0px 0px 0px;
+	}
 #content-left {
-	width:490px;
+	width:400px;
 	float:left;
 	clear:none;
 }
 #content-right {
-	width:490px;
+	width:400px;
+	float:right;
+	clear:none;
+}
+#contenta {
+	width: 350px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;
+	}
+#content-lefta {
+	width:170px;
+	float:left;
+	clear:none;
+}
+#content-righta {
+	width:170px;
 	float:right;
 	clear:none;
 }

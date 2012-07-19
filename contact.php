@@ -10,5 +10,6 @@ contact me :</br >
 </div>
 </div>
 </div>
+<?php include("footer.html"); ?>
 </body>
 </html>
