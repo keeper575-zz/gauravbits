@@ -10,8 +10,11 @@
     <div id="content-right">
 <div id="contenta">
 <div id="content-lefta">
+<img src="qr.jpg"></a>
 <?php
-    $url='http://www.moneycontrol.com/sensex/bse/sensex-live';
+//include "qrlib.php";
+//QRcode::png("Gaurav 8745932313");
+/*    $url='http://www.moneycontrol.com/sensex/bse/sensex-live';
 $ch = curl_init();
 $timeout = 50;
 curl_setopt($ch,CURLOPT_URL,$url);
@@ -48,7 +51,7 @@ echo $val[0] ;
 
 
 curl_close($ch);
-
+*/
 ?>
     </div>  
 	</div> 
@@ -59,3 +62,4 @@ curl_close($ch);
 </div>
 </body>
 </html>
+
