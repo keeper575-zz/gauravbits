@@ -1,0 +1,17 @@
+<html>
+<body>
+
+Use the following command to print number of cores <br /><br />
+cat /proc/cpuinfo | grep processor | wc -l <br><br/><br />
+xargs takes "-P" flag to spawn a given numbers of processes.<br />
+It also takes "-n" to take a definite number of rows from the input to each process.<br />
+<br />e.g. To uncompress a number of files parallelly <br /><br />
+ls *.gz|xargs -P 4 -n 1 gunzip
+<br/>
+
+Done!
+
+<br /><br />for complete man page <a href="./links.php?command=xargs">click here</a>
+
+</body>
+</html>

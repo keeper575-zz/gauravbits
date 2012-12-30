@@ -10,10 +10,9 @@
     <div id="content-right">
 <div id="contenta">
 <div id="content-lefta">
-<?php
-//include "qrlib.php";
-//QRcode::png("Gaurav 8745932313");
-?>
+Recent Posts<br />
+<a href="posts/use-xargs-for-parallel-processing.html">using xargs for parallel processing</a><br />
+
     </div>  
 	</div> 
 </div>

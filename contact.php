@@ -6,6 +6,7 @@ contact me :</br >
 <a href="http://twitter.com/gauravkumar552">tweet </a> </br >
 <a href="http://facebook.com/gauravkumar552">facebook </a> </br >
 <a href="http://gauravbits.tumblr.com/">tumblr </a> </br >
+<a href="http://in.linkedin.com/in/gauravbits">linkedin</a><br />
 
 </div>
 </div>
